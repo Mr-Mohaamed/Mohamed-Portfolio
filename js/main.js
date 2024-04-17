@@ -2,7 +2,7 @@ $(document).ready(function () {
   setTimeout(function () {
     $("body").addClass("loaded");
     $("h1").css("color", "#222222");
-  }, 20);
+  }, 2000);
 });
 
 $(".parts .part").on("mouseenter", function () {
