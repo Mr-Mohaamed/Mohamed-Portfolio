@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Loader</title>
+  </head>
+  <body>
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <div id="home" class="landing-page">
+      <div
+        class="container d-flex justify-content-center align-items-center min-full-page"
+      >
+        <div
+          class="w-100 content d-flex justify-content-center align-items-center flex-column"
+        >
+          <div class="logo">
+            <img src="./img/logo.png" alt="" />
+          </div>
+          <div class="welcome text-center">
+            <h1>I am <span id="type"></span></h1>
+            <h3>Contact Me</h3>
+          </div>
+          <div class="btns">
+            <a
+              href="https://www.linkedin.com/in/mohamed-mamdouh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn"
+            >
+              <span>
+                <i class="fa-brands fa-linkedin linkedin-icon"></i>
+              </span>
+            </a>
+            <a
+              href="https://github.com/mohamed-mamdouh"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn"
+            >
+              <span
+                ><i class="fa-brands fa-square-github github-icon"></i
+              ></span>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn"
+              href="https://drive.google.com/file/d/1eveueA1GN8adOzneoAheOkvMHBtZ4SK7/view?usp=sharing"
+              ><span class="cv">CV</span></a
+            >
+            <!-- <a
+              href="https://drive.google.com/file/d/1eveueA1GN8adOzneoAheOkvMHBtZ4SK7/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn"
+            >
+              <span class="cv-icon">CV</span>
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav id="about" class="nav">
+      <div
+        class="container h-100 d-flex justify-content-between align-items-center"
+      >
+        <ul class="h-100">
+          <li><a class="text-decoration-none link" href="#about">About</a></li>
+          <li>
+            <a class="text-decoration-none link" href="#programming-languages"
+              >Programming Languages</a
+            >
+          </li>
+        </ul>
+        <li class="logo">
+          <img class="thumbnail" src="./img/nav-logo3.png" alt="" />
+        </li>
+        <ul class="h-100">
+          <li>
+            <a class="text-decoration-none link" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="text-decoration-none link" href="#certifications"
+              >Certifications</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <div class="about">
+      <div class="parts">
+        <div class="part grow">
+          <div class="title">Education</div>
+          <div class="content">
+            <h1>Education</h1>
+            <h3>Bachelor of Science</h3>
+            <h4>University of Alexandria</h4>
+            <h5>2018 - 2022</h5>
+            <h6>GPA: 3.47</h6>
+            <h6>Major: Chemistry</h6>
+            <h6>Minor: Biochemistry</h6>
+          </div>
+        </div>
+        <div class="part">
+          <div class="title">Address</div>
+          <div class="content">
+            <h1>Address</h1>
+            <h3>Alexandria</h3>
+            <h4>Egypt</h4>
+          </div>
+        </div>
+        <div class="part">
+          <div class="title">Languages</div>
+          <div class="content">
+            <h1>Languages</h1>
+            <h3>English: <span class="secondary-color">B2</span></h3>
+            <h3>Arabic: <span class="secondary-color">Native</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="programming-languages" class="programming-languages">
+      <div class="section-header">
+        <p class="lang-header-text header-text">Programming Languages</p>
+      </div>
+      <div class="flex-boxs">
+        <div class="section">
+          <div class="section-head-text">Fundamental Languages</div>
+          <div class="grid-boxs">
+            <div class="box">HTML</div>
+            <div class="box">CSS</div>
+            <div class="box">Javascript</div>
+            <div class="box">PHP</div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-head-text">Frame Works</div>
+          <div class="grid-boxs">
+            <div class="box">React.js</div>
+            <!-- <div class="box">Vue.js</div> -->
+            <div class="box">Laravel</div>
+            <div class="box">Express.js</div>
+            <div class="box">Node.js</div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-head-text">Database</div>
+          <div class="grid-boxs">
+            <div class="box">MySql</div>
+            <div class="box">MongoDB</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="diver">
+      <img src="./img/divider.png" alt="" />
+    </div>
+    <div class="projects">
+      <div id="projects" class="projects page">
+        <div class="section-header">
+          <p class="projects-header-text header-text">Projects</p>
+        </div>
+        <div id="projects" class="container min-full-page">
+          <div class="flex-boxs">
+            <div class="left projects-list">
+              <ul>
+                <li
+                  data-link="https://github.com/Mr-Mohaamed/Big-Site"
+                  data-project="./img/1.png"
+                  class="project"
+                >
+                  Hiring Web Site
+                </li>
+                <li
+                  data-link="https://github.com/Mr-Mohaamed/Hanged-Man"
+                  data-project="./img/2.png"
+                  class="project"
+                >
+                  Hanged Man Game
+                </li>
+                <li
+                  data-link="https://github.com/Mr-Mohaamed/Calculator-React-"
+                  data-project="./img/3.png"
+                  class="project"
+                >
+                  Calculator
+                </li>
+                <li
+                  data-link="https://github.com/Mr-Mohaamed/Furniture"
+                  data-project="./img/4.png"
+                  class="project"
+                >
+                  E-commerce Furniture
+                </li>
+                <li
+                  data-link="https://github.com/Mr-Mohaamed/changing-color-site"
+                  data-project="./img/5.png"
+                  class="project"
+                >
+                  Page With Change Color Option
+                </li>
+                <li
+                  data-link="https://github.com/Mr-Mohaamed/gamers-Ecommerce"
+                  data-project="./img/6.png"
+                  class="project"
+                >
+                  E-commerce Web site
+                </li>
+              </ul>
+            </div>
+            <div class="right project-show">
+              <div class="background">
+                <img class="project-background" src="./img/1.png" alt="" />
+              </div>
+              <div class="btns">
+                <button class="btn">
+                  <a class="view-project" href="http://www.facebook.com"
+                    >View</a
+                  >
+                </button>
+                <button class="btn btn-details">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="certifications" class="certifications">
+      <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./img/shhadat/cleancode.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/shhadat/database.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/shhadat/htmlcss.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/shhadat/javascript.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/shhadat/reactjs.jpg" alt="" />
+            </div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </div>
+    <div class="bullets">
+      <a href="#home" class="bullet">
+        <span class="name">Home</span>
+        <span class="icon"></span>
+      </a>
+      <a href="#about" class="bullet">
+        <span class="name">About</span>
+        <span class="icon"></span>
+      </a>
+      <a href="#programming-languages" class="bullet">
+        <span class="name">Languages</span>
+        <span class="icon"></span>
+      </a>
+      <a href="#projects" class="bullet">
+        <span class="name">Projects</span>
+        <span class="icon"></span>
+      </a>
+      <a href="#certifications" class="bullet">
+        <span class="name">Certifications</span>
+        <span class="icon"></span>
+      </a>
+      <a href="#contact" class="bullet">
+        <span class="name">Contact Us</span>
+        <span class="icon"></span>
+      </a>
+    </div>
+    <div id="contact" class="contact">
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+      <div class="container my-5">
+        <!-- Footer -->
+        <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+        >
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h5
+                    class="secondary-color text-uppercase mb-4 font-weight-bold"
+                  >
+                    About
+                  </h5>
+                  <p>I'm Mohamed Mamdouh</p>
+                  <p>I'm Full-Stack Web Developer</p>
+                  <p>
+                    Specialized in: <br />
+                    React & Laravel
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mt-3">
+                  <h5
+                    class="secondary-color text-uppercase mb-4 font-weight-bold"
+                  >
+                    Useful links
+                  </h5>
+                  <div>
+                    <h6 class="secondary-color">Linkedin</h6>
+                    <p>
+                      https://www.linkedin.com/in/mohamed-mamdouh-450a57221/
+                    </p>
+                  </div>
+                  <div>
+                    <h6 class="secondary-color">GitHub</h6>
+                    <p>https://github.com/Mr-Mohaamed</p>
+                  </div>
+                  <div>
+                    <h6 class="secondary-color">CV</h6>
+                    <p>
+                      https://drive.google.com/file<wbr />/d/1eveueA1GN8adOzneo<wbr />heOkvMHBtZ4SK7/view
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mt-3">
+                  <h6
+                    class="text-uppercase mb-4 font-weight-bold secondary-color"
+                  >
+                    Contact
+                  </h6>
+                  <p>
+                    <i class="me-2 secondary-color fas fa-home mr-3"></i>
+                    Alexandria, Egypt
+                  </p>
+                  <p>
+                    <i class="me-2 secondary-color fas fa-envelope mr-3"></i>
+                    m.mamdouh1462@gmail.com
+                  </p>
+                  <p>
+                    <i class="me-2 secondary-color fas fa-phone mr-3"></i> +20
+                    121141822
+                  </p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="my-3" />
+
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+              <div class="row d-flex align-items-center">
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-8 text-center text-md-start">
+                  <!-- Copyright -->
+                  <div class="p-3">© 2024 Copyright:</div>
+                  <!-- Copyright -->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                  <!-- Facebook -->
+                  <a
+                    class="btn btn-outline-light btn-floating m-1 facebook"
+                    class="text-white"
+                    role="button"
+                    href="https://www.facebook.com/00Mohamed.MamDouh/"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+
+                  <!-- Twitter -->
+                  <a
+                    class="btn btn-outline-light btn-floating m-1 linkedin"
+                    class="text-white"
+                    role="button"
+                    href="https://www.linkedin.com/in/mohamed-mamdouh-450a57221/"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+
+                  <!-- Google -->
+                  <a
+                    class="btn btn-outline-light btn-floating m-1 gmail"
+                    class="text-white"
+                    role="button"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=m.mamdouh1462@gmail.com"
+                    ><i class="fab fa-google"></i
+                  ></a>
+
+                  <!-- Instagram -->
+                  <a
+                    class="btn btn-outline-light btn-floating m-1 github"
+                    href="https://github.com/Mr-Mohaamed"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span><i class="fab fa-github"></i></span>
+                  </a>
+                </div>
+                <!-- Grid column -->
+              </div>
+            </section>
+            <!-- Section: Copyright -->
+          </div>
+          <!-- Grid container -->
+        </footer>
+        <!-- Footer -->
+      </div>
+      <!-- End of .container -->
+    </div>
+    <!-- Element to contain animated typing -->
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#type", {
+        strings: ["Mohamed Mamdouh ..!", "Full Stack Web Developer."],
+        typeSpeed: 100,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        loop: true,
+        // If we need pagination
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 60,
+          stretch: 0,
+          depth: 300,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
